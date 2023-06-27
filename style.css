@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/pexels-maxyne-barcel-10402282\ 1.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: darken;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.top .menu{
+    display: flex;
+    gap: 4rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFC233;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.order button{
+    color: white;
+    background:rgb(239, 63, 87);
+    width: 7.5rem;
+    height: 2.8rem;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    width: 70%;
+}
+.text h1{
+    font-size: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize; 
+    color: #FFC233;
+}
+.menu-button button{
+    margin-top: 2rem;
+    color: white;
+    background:rgb(239, 63, 87);
+    width: 18rem;
+    height: 4.4rem;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.footer img{
+    float: right;
+}
